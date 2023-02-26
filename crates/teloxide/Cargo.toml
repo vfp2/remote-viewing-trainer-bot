@@ -150,6 +150,10 @@ name = "buttons"
 required-features = ["macros", "ctrlc_handler"]
 
 [[example]]
+name = "rvt_bot"
+required-features = ["macros", "ctrlc_handler"]
+
+[[example]]
 name = "command"
 required-features = ["macros", "ctrlc_handler"]
 

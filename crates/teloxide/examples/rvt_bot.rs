@@ -21,7 +21,7 @@ enum Command {
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     pretty_env_logger::init();
-    log::info!("Starting Remote Viewing bot...");
+    log::info!("Starting RVT (Remote Viewing Trainer) Bot...");
 
     let bot = Bot::from_env();
 
